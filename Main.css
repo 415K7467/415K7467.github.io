@@ -1,0 +1,113 @@
+*{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+}
+
+.separator{
+    margin: 20px 10%;
+    width: 80%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+/*------------------- Header -------------------*/
+
+#photo-head{
+    background-color: yellow;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin: 10rem 1rem 1rem 15rem;
+    position: absolute;
+    left: 0;
+}
+
+h1{
+    position: absolute;
+    right: 0;
+    margin: 20rem 15rem 1rem 1rem;
+    font-family: "lato", Helvetica, sans-serif;
+    color: #132035FF;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*------------------- Presentation -------------------*/
+
+#presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 75vw;
+    height: 100vh;
+}
+
+/*------------------- Competence -------------------*/
+
+summary{
+    display: flex;
+    justify-content: center;
+
+    margin: 0 20%;
+}
+
+summary > h2 {
+    background-color: #D3D3D3FF;
+    border-radius: 20px 20px 0 0;
+
+    width: 100%;
+    text-align: center;
+
+    height: 3rem;
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#competence details div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#competence details div>*{
+    width: 90vw;
+}
+
+
+/*------------------- Project -------------------*/
+#project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20%;
+    gap: 2rem;
+}
+
+#project .title{
+    display: flex;
+    align-items: center;
+}
+
+#project li{
+    border-left: solid;
+    padding:0 0 1rem 1rem;
+}
+
+#project ul{
+    padding: 0;
+}
+
+#project .description{
+    padding-left: 2rem;
+}
