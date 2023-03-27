@@ -112,6 +112,10 @@ summary > h2 {
     width: 90vw;
 }
 
+#competence .text>p{
+    font-weight: bold;
+}
+
 
 /*------------------- Project -------------------*/
 #project{
